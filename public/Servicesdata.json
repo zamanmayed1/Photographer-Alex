@@ -1,0 +1,26 @@
+[
+          
+
+
+          {
+                    "id" : 1 ,
+                    "img" : "https://i.ibb.co/qYb7R87/Rectangle-11.png",
+                    "name" : "EVENT PHOTOGRAPHY",
+                    "price" : "2500",
+                    "description" : "I photographs various events, capturing the atmosphere and personalities of each occasion. From conference photography for Marks and Spencer, product launches, seminars to restaurant Pop-Ups and opening nights for bars throughout London, Oxford and Brighton. "
+          },
+          {
+                    "id" : 2 ,
+                    "img": "https://i.ibb.co/GvfrkfP/Rectangle-10.png",
+                    "name" : "ADVERTISING PHOTOGRAPHY",
+                    "price" : "3200",
+                    "description" : "I am background as a visual artist with a BA and MA in Fine Art informs the work produced, bringing an added sensitivity and intelligence to the visual experience. Post production services are available such as retouching as well as the availability to travel throughout the UK and internationally for commissions. "
+          },
+          {
+                    "id" : 3,
+                    "img": "https://i.ibb.co/hs7B5g5/Rectangle-9.png",
+                    "name" : "FOOD & DRINK PHOTOGRAPHY",
+                    "price" : "3200",
+                    "description" : "Accomplished at working with restaurants, publishers and PR & Advertising agencies to create distinctive Food & Drink photography. Including studio photoshoots as well as still-life or lifestyle imagery on location at restaurants, private members clubs, cafes or bars. The resulting photographs are then implemented across websites, social media and in print collateral such as magazines, cookbooks and various other press, marketing or advertising campaigns. "
+          }
+]
