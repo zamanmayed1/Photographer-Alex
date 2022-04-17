@@ -6,7 +6,7 @@ import Customlink from "../Customlink/Customlink";
 const Footer = () => {
           const [user] = useAuthState(auth)
           return (
-                    <div className=' w-full border-t border-orange-400 px-6 md:px-32 bg-[#020305] h-auto  text-white py-11 '>
+                    <div className=' w-full footer px-6 md:px-32 bg-[#020305] h-auto  text-white py-11 '>
                               <div className=' md:grid md:grid-cols-2  '>
                                         <div className='w-full text-left'>
                                                   <div className="logo md:w-2/4 flex justify-center md:justify-start items-center">
@@ -16,7 +16,7 @@ const Footer = () => {
                                                   </div>
                                                   <h1 className='md:col-span-2'> Copyright by @Zaman Mayed</h1>
                                         </div>
-                                        <div className=' my-4 footer  md:w-full'>
+                                        <div className=' my-4  md:w-full'>
                                                   <Customlink to={'/'}>Home</Customlink>
                                                   <Customlink to={'/blogs'}>Blogs</Customlink>
                                                   <Customlink to={'/aboutme'}>About Me</Customlink>
