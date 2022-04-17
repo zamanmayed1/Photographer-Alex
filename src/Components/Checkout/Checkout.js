@@ -1,8 +1,11 @@
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
+import auth from '../../Firebase/Firebase.config';
 import Socialsignin from '../Socialsignin/Socialsignin'
 
 const Checkout = () => {
+    const [user] = useAuthState(auth)
           return (
                     <section className="flex justify-center items-center mb-56  bg-[#020305]">
                     <div className="max-w-md w-full bg-gray-900 rounded p-6 space-y-5">
@@ -15,7 +18,7 @@ const Checkout = () => {
                         </div>
                        
                         <div>
-                            <input className="w-full p-4 text-sm bg-blue-50 focus:outline-none border border-gray-200 rounded text-gray-600" type="email" value={"useremailmail@gmail.com"} readOnly></input>
+                            <input className="w-full p-4 text-sm bg-blue-50 focus:outline-none border border-gray-200 rounded text-gray-600" type="email" value={user?.email} readOnly></input>
                         </div>
                         <div>
                             <input className="w-full p-4 text-sm bg-gray-50 focus:outline-none border border-gray-200 rounded text-gray-600" type="text" placeholder="Street Address (1) *" required></input>
