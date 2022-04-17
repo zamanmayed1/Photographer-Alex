@@ -4,7 +4,7 @@ import Socialsignin from '../Socialsignin/Socialsignin';
 
 const Login = () => {
           return (
-                    <section className="flex justify-center items-center  bg-[#020305]">
+                    <section className="flex justify-center items-center mb-64  bg-[#020305]">
     <div className="max-w-md w-full bg-gray-900 rounded p-6 space-y-5">
         <div className="mb-4">
             <h2 className="text-xl font-bold text-white">Log in With You account</h2>

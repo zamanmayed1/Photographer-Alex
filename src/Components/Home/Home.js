@@ -4,7 +4,7 @@ import Topbanner from '../Topbanner/Topbanner';
 
 const Home = () => {
           return (
-                    <div>
+                    <div >
                           <Topbanner/>  
                           <Services/>  
                     </div>
