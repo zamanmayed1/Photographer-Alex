@@ -22,5 +22,26 @@
                     "name" : "FOOD & DRINK PHOTOGRAPHY",
                     "price" : "3200",
                     "description" : "Accomplished at working with restaurants, publishers and PR & Advertising agencies to create distinctive Food & Drink photography. Including studio photoshoots as well as still-life or lifestyle imagery on location at restaurants, private members clubs, cafes or bars. The resulting photographs are then implemented across websites, social media and in print collateral such as magazines, cookbooks and various other press, marketing or advertising campaigns. "
+          },
+          {
+                    "id" : 4 ,
+                    "img" : "https://i.ibb.co/yW8c4qt/Rectangle-12.png",
+                    "name" : "SOCIAL MEDIA PHOTOGRAPHY",
+                    "price" : "4500",
+                    "description" : "I am Working with brands to create a range of captivating social media content that followers will want to engage with, from lifestyle and product photography to animated GIFS and videos, which Jamie Lau films, edits and builds. "
+          },
+          {
+                    "id" : 5 ,
+                    "img": "https://i.ibb.co/Wv0PQv0/Rectangle-13.png",
+                    "name" : "CORPORATE PHOTOGRAPHY",
+                    "price" : "5000",
+                    "description" : "Corporate photography for amongst others, Marks & Spencer and Soho House, commissioned to take portraits of the people who make up these companies and visit workplaces to capture what makes working for these companies unique.  "
+          },
+          {
+                    "id" : 6,
+                    "img": "https://i.ibb.co/rvRNhnH/Rectangle-14.png",
+                    "name" : "FILMING AND EDITING",
+                    "price" : "3200",
+                    "description" : "In addition to photography Studio Lau offers the filming, editing and production of videos. Depending on the scope of your project Jamie Lau can also work with a second cameraman and a sound engineer for larger productions.. "
           }
 ]

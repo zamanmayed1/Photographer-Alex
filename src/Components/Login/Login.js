@@ -12,12 +12,15 @@ const Login = () => {
     let navigate = useNavigate();
     let location = useLocation();
     let from = location.state?.from?.pathname || "/";
+    if (user) {
+        navigate(from, { replace: true });
+    }
     const loginform = (e) => {
         e.preventDefault()
         const email = emailRef.current.value
         const password = passwordref.current.value
         signInWithEmailAndPassword(email , password)
-        navigate(from, { replace: true });
+       
     }
     return (
         <section className="flex justify-center items-center mb-64  bg-[#020305]">

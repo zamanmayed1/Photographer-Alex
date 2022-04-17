@@ -18,7 +18,7 @@ const Checkout = () => {
                         </div>
                        
                         <div>
-                            <input className="w-full p-4 text-sm bg-blue-50 focus:outline-none border border-gray-200 rounded text-gray-600" type="email" value={user?.email} readOnly></input>
+                            <input className="w-full p-4 text-sm bg-blue-200 focus:outline-none border border-gray-200 rounded text-gray-900 font-bold" type="email" value={user?.email} readOnly></input>
                         </div>
                         <div>
                             <input className="w-full p-4 text-sm bg-gray-50 focus:outline-none border border-gray-200 rounded text-gray-600" type="text" placeholder="Street Address (1) *" required></input>

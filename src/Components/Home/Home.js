@@ -1,6 +1,5 @@
 import React from 'react';
-import Aboutme from '../Aboutme/Aboutme';
-import Blogs from '../Blogs/Blogs';
+import Review from '../../Review/Review';
 import Services from '../Services/Services';
 import Topbanner from '../Topbanner/Topbanner';
 
@@ -9,6 +8,7 @@ const Home = () => {
                     <div >
                           <Topbanner/>  
                           <Services/>  
+                          <Review/>
                          
                     </div>
           );

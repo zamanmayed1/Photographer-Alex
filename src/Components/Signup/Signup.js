@@ -19,8 +19,7 @@ const Signup = () => {
         const confirmpassword = confirmpasswordRef.current.value
         if (password === confirmpassword) {
             createUserWithEmailAndPassword(email , password)
-            navigate('/')
-           
+
         }
         else{
             setPassError('Password Not Match ⚠ ')
@@ -28,7 +27,9 @@ const Signup = () => {
         
     }
 
-
+if (user) {
+    navigate('/')
+}
           return (
                     <section className="flex justify-center items-center  bg-[#020305] mb-16">
                     <div className="max-w-md w-full bg-gray-900 rounded p-6 space-y-5">
