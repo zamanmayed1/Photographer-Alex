@@ -2,7 +2,7 @@
 
 ### Visit Website : [Photographer-Alex](https://photographer-alex.web.app/).
 
-#### Five Features of My Website
+#### Some Features of My Website
 * Dark Theme 
 * Responsive For Mobile and Leptop Screen
 * No Reload Issues
